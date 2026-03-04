@@ -16,7 +16,7 @@ This repository focuses on methodology, observations, and lessons learned during
 ## Service Enumeration
 
 Initial scan: 
-sudo nmap -sV -p21 -sC -A <target> 
+sudo nmap -sV -p21 -sC -T5 -A "target"
 
 Finding	Description
 
