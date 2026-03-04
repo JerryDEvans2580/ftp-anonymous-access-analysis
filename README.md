@@ -33,7 +33,7 @@ The most critical issue is anonymous FTP access.
 ## Initial Approach – Automated Mirroring
 
 At first, the files were retrieved using a mirroring technique:
-wget -m --no-passive ftp://anonymous:anonymous@ <TARGET>
+wget -m --no-passive ftp://anonymous:anonymous@"Target"
 
 Explanation:
 
